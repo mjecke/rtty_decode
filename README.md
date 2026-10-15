@@ -16,6 +16,9 @@ If you don't give --baud and/or --polarity, it tries the common options
 (45.45, 50, 75, 100 baud; normal and reversed) and keeps the best-looking result.
 
 Examples
-  python rtty_decode.py recording.wav
-  python rtty_decode.py recording.wav --baud 45.45 --mark 2125 --space 2295
-  python rtty_decode.py recording.wav --polarity reverse --usos -o out.txt
+
+python rtty_decode.py recording.wav
+
+python rtty_decode.py recording.wav --baud 45.45 --mark 2125 --space 2295
+
+python rtty_decode.py recording.wav --polarity reverse --usos -o out.txt
